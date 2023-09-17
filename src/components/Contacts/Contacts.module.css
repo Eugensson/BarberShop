@@ -1,0 +1,74 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 480px;
+    background-color: #191C26;
+}
+
+.infoWrapper {
+    height: 496px;
+    padding: 84px 31px;
+    background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1694979397/BarberShop/Conracts_ayovqt.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.625rem;
+    margin-bottom: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-bottom: 44px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    cursor: pointer;
+    font-size: 1.125rem;
+    color: var(--secondary-text-color);
+}
+
+.link:hover, .link:focus {
+    font-weight: 700;
+}
+
+.subTitle {
+    position: relative;
+  
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+  }
+  
+  .subTitle::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    
+    width: 60px;
+    height: 1px;
+    background-color: var(--white-text-color);  
+  }
+
+  .workingWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 249px;
+  }
+
+  .text {
+    color: var(--secondary-text-color);
+  }

@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 100%;
+    max-width: 480px;
+    padding: 84px 31px;
+    background-color: var(--accent-background-color);    
+}
+
+.title {
+    color: var(--third-text-color);
+}
+
+.subTitle {
+    position: relative;
+  
+    width: 304px;
+    text-align: right;
+    text-transform: uppercase;
+    color: var(--third-text-color);
+  }
+  
+  .subTitle::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    
+    width: 60px;
+    height: 1px;
+    background-color: var(--third-text-color);  
+  }

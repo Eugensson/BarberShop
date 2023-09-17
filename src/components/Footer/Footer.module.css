@@ -1,0 +1,36 @@
+.wrapper {    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 480px;
+    padding: 44px 31px;
+    background-color: #f7f7f7;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;   
+}
+
+.link {
+    position: relative;    
+    color: var(--third-text-color);
+  }
+  
+.link::before {
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    content: "";
+    
+    width: 60px;
+    height: 1px;
+    background-color: var(--third-text-color);  
+}

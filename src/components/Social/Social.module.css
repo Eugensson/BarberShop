@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link:hover, .link:focus {
+    color: var(--border-background-color);
+}

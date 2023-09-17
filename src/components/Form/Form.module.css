@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
+    padding: 84px 31px;
+    max-width: 480px;
+    background-color: #191C26;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.625rem;    
+}
