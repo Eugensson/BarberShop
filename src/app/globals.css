@@ -1,6 +1,7 @@
 :root {
   --primary-text-color: #555555;
   --secondary-text-color: #9da4bd;
+  --secondary-text-transparent-color: rgba(157, 164, 189, 0.4);
   --third-text-color: #303030;
   --white-text-color: #ffffff;
   --primary-background-color: #ffffff;
@@ -8,6 +9,10 @@
   --border-background-color: #ff6c00;
   --accent-background-color: #f7f7f7;
   --gradient: linear-gradient(rgba(47, 48, 58, 0.7), rgba(47, 48, 58, 0.7));
+}
+
+.MuiTextField-root .MuiFormLabel-root {
+  color: var(--secondary-text-color);
 }
 
 * {
@@ -75,3 +80,5 @@ a {
 @media (min-width: 1600px) {
   
 } */
+
+

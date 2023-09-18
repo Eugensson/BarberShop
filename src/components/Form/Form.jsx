@@ -1,4 +1,7 @@
-import styles from "@/components/Form/Form.module.css"
+import TextField from '@mui/material/TextField';
+import Btn from '@/components/Btn/Btn';
+
+import styles from "@/components/Form/Form.module.css";
 
 import { Raleway } from "next/font/google";
 
@@ -12,7 +15,12 @@ const Form = () => {
   return (
     <section className={styles.wrapper}>
       <h2 className={`${raleway.className} ${styles.title}`}>Online-booking</h2>
-      <form></form>
+      <form className={styles.formWrapper}>
+        <TextField fullWidth id="Name" label="Name" variant="standard" required />
+        <TextField fullWidth id="Phone" label="Phone" variant="standard" required />
+        <TextField fullWidth id="Message" label="Message" variant="standard" />
+        <Btn type="submit" text="Send" styleName="primaryBtn"/>
+      </form>
     </section>    
   )
 }

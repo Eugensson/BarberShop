@@ -21,7 +21,7 @@ export default function MobileMenu() {
             </li>
             <li className={styles.item}>
                 <a className={styles.link} href="tel:+380441111111" arial-label="Icon Phone">+38 044 111 11 11</a>                
-                <LinkBtn onClick={closeMobileMenu}/>
+                <LinkBtn text="Online-booking" styleName="secondaryLinkBtn" />
             </li>
             <li className={styles.item}>
                 <Link className={styles.social} href="/" onClick={closeMobileMenu}>Instagram</Link>

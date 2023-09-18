@@ -2,9 +2,9 @@ import Link from "next/link";
 
 import styles from "@/components/LinkBtn/LinkBtn.module.css";
 
-const LinkBtn = () => {
+const LinkBtn = ({url, text, styleName}) => {
   return (
-    <Link href="" className={styles.btn}>Online-booking</Link>
+    <Link href="/" className={styles[styleName] || styles.styleName}>{text}</Link>
   )
 }
 

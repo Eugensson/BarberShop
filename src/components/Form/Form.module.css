@@ -10,5 +10,11 @@
 
 .title {
     text-align: center;
-    font-size: 2.625rem;    
+    font-size: 2.625rem;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
 }

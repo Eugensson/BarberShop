@@ -49,7 +49,7 @@ const ServicesAndPrices = () => {
           <p className={styles.text}>from 200 uah.</p>
         </li>
       </ul>
-      <LinkBtn />
+      <LinkBtn text="Online-booking" styleName="primaryLinkBtn" />      
     </section>
   )
 }
