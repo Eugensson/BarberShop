@@ -61,10 +61,20 @@
 
 }
 
+.burgerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
 .burger {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 0;   
     
     width: 40px;
     height: 4px;

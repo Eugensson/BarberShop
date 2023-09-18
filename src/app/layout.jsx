@@ -1,3 +1,4 @@
+import { MobileMenuProvider } from '@/context/MobileMenuContext';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 
@@ -26,13 +27,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={open_Sans.className}>
-        <section className="container">
-          <Header />
-          <main>
-            {children}
-          </main>
-          <Footer/>
-        </section>
+        <MobileMenuProvider>
+          <section className="container">
+            <Header />
+            <main>
+              {children}
+            </main>
+            <Footer/>
+          </section>
+        </MobileMenuProvider>
+        
       </body>
     </html>
   )
