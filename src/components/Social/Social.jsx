@@ -12,23 +12,43 @@ const Social = ( { instagramURL, twitterURL, facebookURL, linkInURL } ) => {
   return (
     <ul className={styles.list}>
         <li>
-            <Link className={styles.link} href={instagramURL} target="_blank" aria-label="Icon Instagram">
-                <InstagramIcon fontSize="large"/>                
+            <Link
+                className={styles.link}
+                href={instagramURL}
+                target="_blank"
+                aria-label="Icon Instagram"
+            >
+                <InstagramIcon/>                
             </Link>
         </li>
         <li>
-            <Link className={styles.link} href={twitterURL} target="_blank" aria-label="Icon Twitter">
-                <TwitterIcon fontSize="large"/>                
+            <Link
+                className={styles.link}
+                href={twitterURL}
+                target="_blank"
+                aria-label="Icon Twitter"
+            >
+                <TwitterIcon/>                
             </Link>
         </li>
         <li>
-            <Link className={styles.link} href={facebookURL} target="_blank" aria-label="Icon Facebook">
-                <FacebookIcon fontSize="large"/>               
+            <Link
+                className={styles.link}
+                href={facebookURL}
+                target="_blank"
+                aria-label="Icon Facebook"
+            >
+                <FacebookIcon/>               
             </Link> 
         </li>
         <li>
-            <Link className={styles.link} href={linkInURL} target="_blank" aria-label="Icon linkedIn">
-                <LinkedInIcon fontSize="large"/>                
+            <Link
+                className={styles.link}
+                href={linkInURL}
+                target="_blank"
+                aria-label="Icon linkedIn"
+            >
+                <LinkedInIcon />                
             </Link>
         </li>
     </ul>

@@ -1,4 +1,4 @@
-import styles from  "@/components/Preference/Preference.module.css";
+import styles from  "@/sections/Preference/Preference.module.css";
 
 import { Raleway } from "next/font/google";
 
@@ -12,8 +12,8 @@ const raleway = Raleway({
 const Preference = () => {
   return (
     <section className={styles.wrapper}>
-        <h3 className={styles.subTitle}>Old traditional school</h3>
-        <h2 className={`${raleway.className} ${styles.title}`} >¿Why people come to us?</h2>
+        <h4>Old traditional school</h4>
+        <h2 className={raleway.className}>¿Why people come to us?</h2>
         <p className={styles.text}>Only good things are said about us. But it&#x2019;s better to see and feel 1 time than read 10 times. </p>
         <ul className={styles.list}>
             <li className={styles.item}>

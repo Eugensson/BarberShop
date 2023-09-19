@@ -2,9 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.36rem;
+}
+
+.link {
+    color: var(--primary-text-color);
 }
 
 .link:hover, .link:focus {
-    color: var(--border-background-color);
+    color: var(--accent-text-color);
 }

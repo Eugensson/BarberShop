@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.71rem;
+    
+    width: 100%;    
+    padding: 3rem 1.11rem;
+
+    background-color: var(--secondary-background-color);
+}

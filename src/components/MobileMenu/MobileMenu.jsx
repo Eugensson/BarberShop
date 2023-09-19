@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import CloseIcon from '@mui/icons-material/Close';
 import LinkBtn from "@/components/LinkBtn/LinkBtn";
 
 import { useMobileMenu } from '@/context/MobileMenuContext';
@@ -10,22 +11,24 @@ export default function MobileMenu() {
 
   return (
     <div className={styles.wrapper}>      
-      <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}></button>
+      <button type='button' className={styles.closeBtn} onClick={closeMobileMenu}>
+        <CloseIcon />
+      </button>
       <nav className={styles.nav}>
         <ul className={styles.list}>
             <li className={styles.item}>
                 <Link className={styles.link} href="/" onClick={closeMobileMenu}>About</Link>
-                <Link className={styles.link} href="/" onClick={closeMobileMenu}>Services and pricules</Link>
+                <Link className={styles.link} href="/" onClick={closeMobileMenu}>Services and prices</Link>
                 <Link className={styles.link} href="/" onClick={closeMobileMenu}>Barbers</Link>
                 <Link className={styles.link} href="/" onClick={closeMobileMenu}>Contacts</Link>
             </li>
-            <li className={styles.item}>
+            <li className={styles.itemContact}>
                 <a className={styles.link} href="tel:+380441111111" arial-label="Icon Phone">+38 044 111 11 11</a>                
                 <LinkBtn text="Online-booking" styleName="secondaryLinkBtn" />
             </li>
             <li className={styles.item}>
                 <Link className={styles.social} href="/" onClick={closeMobileMenu}>Instagram</Link>
-                <Link className={styles.social} href="/" onClick={closeMobileMenu}>Youtube</Link>
+                <Link className={styles.socialWithoutBefore} href="/" onClick={closeMobileMenu}>Youtube</Link>
             </li>
         </ul>                    
       </nav>      

@@ -11,11 +11,11 @@ const Footer = () => {
             <Link className={styles.link} href="https://www.instagram.com/" target="_blank">Instagram</Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com/" target="_blank">Youtube</Link>
+            <Link className={styles.linkWithoutBefore} href="https://www.youtube.com/" target="_blank">Youtube</Link>
           </li>
         </ul>        
       </nav>
-      <p>&copy; Copyright 2023</p>
+      <p className={styles.copyright}>&copy; Copyright 2023</p>
     </footer>
   )
 }

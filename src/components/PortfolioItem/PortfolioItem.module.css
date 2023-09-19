@@ -1,0 +1,38 @@
+.imgThumb {
+    position: relative;
+
+    margin: 0 auto;
+    width: 258px;
+    height: 213px;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 480px) {    
+    .imgThumb {
+        width: 100%;
+        max-width: 418px;
+        height: 360px;
+    }
+}
+
+@media (min-width: 768px) {    
+    .imgThumb {
+        max-width: 330px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .imgThumb {
+        max-width: 270px; 
+    }
+}

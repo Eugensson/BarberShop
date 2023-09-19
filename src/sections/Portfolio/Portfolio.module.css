@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.71rem;
+    
+  width: 100%;    
+  padding: 3rem 1.11rem;
+  background-color: var(--primary-background-color);
+}
+
+.h4 {
+  margin-bottom: 1.82rem;
+}

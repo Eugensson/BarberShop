@@ -2,9 +2,7 @@ import TextField from '@mui/material/TextField';
 import Btn from '@/components/Btn/Btn';
 
 import styles from "@/components/Form/Form.module.css";
-
 import { Raleway } from "next/font/google";
-
 const raleway = Raleway({
   subsets: ["cyrillic"],
   variable: "--font-raleway",
@@ -19,7 +17,7 @@ const Form = () => {
         <TextField fullWidth id="Name" label="Name" variant="standard" required />
         <TextField fullWidth id="Phone" label="Phone" variant="standard" required />
         <TextField fullWidth id="Message" label="Message" variant="standard" />
-        <Btn type="submit" text="Send" styleName="primaryBtn"/>
+        <Btn type="submit" text="Send" styleName="primaryBtn"/>s
       </form>
     </section>    
   )

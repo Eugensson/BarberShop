@@ -1,4 +1,4 @@
-import Card from "@/components/Card/Card";
+import CardItem from "@/components/CardItem/CardItem";
 
 import styles from "@/components/CardList/CardList.module.css";
 
@@ -8,7 +8,7 @@ const CardList = ({data}) => {
         {data.map(item => {
             return (
                 <li key={item.id} className={styles.item}>
-                    <Card
+                    <CardItem
                         imageUrl={item.imageUrl}
                         title={item.title}
                         subtitle={item.subtitle}

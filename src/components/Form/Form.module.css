@@ -5,13 +5,15 @@
 
     padding: 84px 31px;
     max-width: 480px;
-    background-color: #191C26;
+    background-color: var(--third-background-color);
 }
 
 .title {
+    margin-bottom: 1.43rem;
+    
     text-align: center;
-    font-size: 2.625rem;
-}
+    color: var(--white-text-color);
+  }
 
 .formWrapper {
     display: flex;

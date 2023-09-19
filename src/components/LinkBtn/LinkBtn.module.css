@@ -3,17 +3,17 @@
     justify-content: center;
     align-items: center;
     
-    width: 160px;
-    height: 40px;
+    width: 5.71rem;
+    height: 1.43rem;
     margin: 0 auto;
-    padding: 12px 20px;
+    padding: 0.43rem 0.71rem;
 
+    font-size: 0.43rem;
     text-transform: uppercase;
-    font-size: 0.75rem;
     color: var(--white-text-color);
     background-color: transparent;
-    border: 1px solid var(--border-background-color);
-    border-radius: 25px;
+    border: 0.04rem solid var(--accent-background-color);
+    border-radius: 0.9rem;
 }
 
 .secondaryLinkBtn {    
@@ -21,21 +21,21 @@
     justify-content: center;
     align-items: center;
     
-    width: 160px;
-    height: 40px;
-    padding: 12px 20px;
+    width: 5.71rem;
+    height: 1.43rem;
+    padding: 0.43rem 0.71rem;
 
+    font-size: 0.43rem;
     text-transform: uppercase;
-    font-size: 0.75rem;
-    color: var(--third-text-color);
+    color: var(--primary-text-color);
     background-color: transparent;
-    border: 1px solid var(--border-background-color);
-    border-radius: 25px;
+    border: 0.04rem solid var(--accent-background-color);
+    border-radius: 0.9rem;
 }
 
 .primaryLinkBtn:hover, .primaryLinkBtn:focus, .secondaryLinkBtn:hover, .secondaryLinkBtn:focus {    
     color: var(--white-text-color);
-    background-color: var(--border-background-color);
+    background-color: var(--accent-background-color);
 }
 
 

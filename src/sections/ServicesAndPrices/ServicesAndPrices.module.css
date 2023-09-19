@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.57rem;
+    
+    width: 100%;
+    padding: 3rem 1.11rem;
+
+    background-image: url("https://res.cloudinary.com/dhkadb6du/image/upload/v1694932295/BarberShop/servicesAndPrices_urjofd.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.title {
+  color: var(--white-text-color);
+}
+
+.subTitle {
+  color: var(--secondary-text-color);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.72rem;
+    
+  margin-top: 0.86rem;
+  padding: 1.07rem 0.71rem;
+
+  background-image: var(--gradient);
+}
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    color: var(--secondary-text-color);
+  }
+
+  @media (max-width: 479px) {
+    .text {
+      font-size: 0.35rem;
+    }
+  }

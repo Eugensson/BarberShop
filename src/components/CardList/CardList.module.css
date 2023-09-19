@@ -1,11 +1,10 @@
 .list {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
 
-  .item {
-    width: 100%;
-    max-width: 480px;
-    height: 502px;    
-  }
+.item {
+  margin: 0 auto;
+  width: 100%;  
+}

@@ -4,22 +4,22 @@
     align-items: center;
     
     margin: 0 auto;
-    padding: 12px 38px;
-    width: 160px;
-    height: 40px;
-    font-size: 0.75rem;
+    padding: 0.42rem 1.36rem;
+    width: 5.71rem;
+    height: 1.43rem;
+
+    font-size: 0.43rem;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
-    color: var(--white-text-color);
-    
+    color: var(--white-text-color);    
     background-color: transparent;
-    border: 1px solid var(--border-background-color);
+    border: 1px solid var(--accent-background-color);
     border-radius: 25px;
     cursor: pointer;
 }
 
 .primaryBtn:hover, .primaryBtn:focus {
-    background-color: var(--border-background-color);
+    background-color: var(--accent-background-color);
     
 }
